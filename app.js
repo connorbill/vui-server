@@ -16,7 +16,7 @@ var cors = require('koa2-cors');
 const app = new Koa()
 const router = koaRouter()
 
-let port = process.env.PORT
+let port = 1234
 
 app.use(cors());
 // app.use(cors2());
